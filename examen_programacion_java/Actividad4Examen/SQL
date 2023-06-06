@@ -1,0 +1,11 @@
+Creación de la base de datos
+
+CREATE DATABASE dbexamen;
+
+Creación de la tabla
+
+CREATE TABLE `asignaturas` (
+  `idasignatura` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(100) NOT NULL,
+  PRIMARY KEY (`idasignatura`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
